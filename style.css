@@ -1,0 +1,295 @@
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+            body {
+                background-position: center;
+                color: hsl(0, 0%, 100%);
+                font-family: 'Open Sans', sans-serif;
+                font-size: 14px;
+                background-color: hsl(217, 28%, 15%);
+            }
+
+
+
+        .navbar{
+        margin: 50px;
+        font-family: 'Raleway', sans-serif;
+
+        } 
+
+        .navbar ul li{
+            list-style: none;
+            display: inline-flex;
+            margin-bottom: 20px;
+        }
+
+
+        .logo img{
+        width: 95%;
+        display: block;
+        }
+
+        .menu{
+            display: flex;
+            justify-content: space-around;
+            align-items: right;
+            top: 40px;
+            right: 90px;
+            margin-top: 10px;
+            position: absolute;
+            cursor: pointer;  
+        }
+
+        .menu li{
+            padding: 5px;
+            padding-top: 10px;
+        }
+
+        .menu li a{
+            text-decoration: none;
+            color: #fff;
+        }
+        .intro img{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 50%;
+        }
+        
+
+        .text1{
+        width: 90%;
+        height: 70%;
+        text-align: center;
+        position: absolute;
+        color: #fff;
+        }
+ 
+
+        .text1 h2{
+            font-size: 35px;
+        }
+
+        .text1 p{
+            color: whitesmoke;
+        }
+
+        .getbtn{
+            width: 200px;
+            height: 45px;
+            right: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            border: 2px solid transparent;
+            border-width: 15px;
+            border-radius: 20px;
+            background: radial-gradient(hsl(176, 68%, 64%), hsl(198, 60%, 50%));  
+            background-color: hsl(198, 60%, 50%);
+
+            
+        }
+
+        .getbtn a{
+            font-size: 15px;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .resources{
+            margin-top: 350px;
+            padding: auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            text-align: center;
+            justify-content: center;
+            grid-row-gap: 1em;
+            grid-column-gap: 1em;
+
+        }
+
+        #item{
+            color: whitesmoke;
+        }
+
+        #item p{
+            font-size: 16px;
+        }
+
+
+        .product{
+            margin-top: 30px;
+            padding: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        .p-text{
+            text-align: left;
+            padding-left: 40px 0px;
+            color: whitesmoke;
+            font-family: 'Open Sans' , sans-serif;
+        }
+
+        .p-text h3{
+            font-size: 30px;
+        }
+
+        .p-text p{
+        font-size: 15px;
+        }
+
+        .p-text a{
+            text-decoration: underline;
+            color: hsl(176, 68%, 64%);
+        }
+        .p-text a span img{
+            padding-bottom: 4px;
+        }
+
+        
+
+        .testimonials {
+            background-image: url(images/bg-quotes.png);
+            background-repeat: no-repeat;
+            background-position-x: 100px;
+            padding: 30px 100px 350px 100px;
+            margin: 100px 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .testimonials .testimonial-card {
+            background-color: hsl(219, 30%, 18%);
+            max-width: 350px;
+            padding: 30px;
+            border-radius: 5px;
+        }
+
+        .testimonials .testimonial-card .testimonial-author {
+            margin-top: 20px;
+            display: flex;
+        }
+
+        .testimonials .testimonial-card .testimonial-author img {
+            width: 2.5rem;
+            height: 2.5rem;
+            border-radius: 50%;
+        }
+
+        .testimonials .testimonial-card .testimonial-author .testimonial-author-info {
+            padding-left: 15px;
+        }
+
+.access{
+        position: absolute;
+        left: 25%;
+        bottom: -2000px;
+        margin: auto;
+        padding: 30px 50px;
+        background-color: hsl(219, 30%, 18%);
+        text-align: center;
+        max-width: 70%;
+        border-radius: 10px;
+    }
+    
+    .access h1{
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+    
+    .access input {
+        margin: 30px 20px 0 0;
+        font-size: 16px;
+        padding: 15px;
+        border-radius: 30px;
+        width: 65%;
+    }
+    
+    .access a {
+        font-weight: 700;
+        display: inline-block;
+        padding: 20px;
+        border-radius: 30px;
+        background-color: hsl(176, 68%, 64%);
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .footer {
+        margin-top: -100px;
+        padding: 200px 0 50px 100px;
+        background-color: hsl(216, 53%, 9%);
+    }
+    
+    .footer .footer-container {
+        margin-top: 1.5rem;
+        display: flex;
+    }
+    
+    .footer .footer-container .location,
+    .footer .footer-container .contact,
+    .footer .footer-container nav,
+    .footer .footer-container .icons {
+        flex: 1;
+    }
+    
+    .footer .footer-container .location,
+    .footer .footer-container .contact .phone,
+    .footer .footer-container .contact .email {
+        display: flex;
+    }
+    
+    .footer .footer-container .location {
+        margin-right: 5rem;
+    }
+    
+    .footer .footer-container .location img {
+        height: 1.5rem;
+        margin-right: 1rem;
+    }
+    
+    .footer .footer-container .contact .email {
+        margin: 1rem 0;
+    }
+    
+    .footer .footer-container .contact img {
+        margin-right: 1rem;
+    }
+    
+    .footer .footer-container nav,
+    .footer .footer-container .icons {
+        display: flex;
+    }
+    
+    .footer .footer-container nav .first-nav {
+        margin-right: 3rem;
+    }
+    
+    .footer .footer-container nav a {
+        display: block;
+        margin-bottom: 1rem;
+        text-decoration: none;
+    }
+    
+    .icons .facebook,
+    .icons .twitter,
+    .icons .pinterest {
+        margin-right: 1rem;
+    }
+    
+    .attribution{
+        margin-top: 10px;
+        text-align: center;
+    }
+
+.attribution a{
+    color:  hsl(217, 68%, 48%);
+    text-decoration: none;
+}
